@@ -19,6 +19,8 @@ body{
   color: white;
   width: 157px;
   height: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .navtextsize{
@@ -46,12 +48,14 @@ body{
   width: 170px;
   height: 60px;
   background-color: #1CA8CB;
+  position: relative;
 }
 .btns12{
   width: 170px;
   height: 60px;
   background-color: transparent;
   border: 2px solid white;
+  position: relative;
 }
 .section1{
   position: relative;
@@ -519,17 +523,17 @@ body{
 
 
 
-.booknow:hover{
+/* .booknow:hover{
   animation:  a 5s ease-in-out;
-}
+} */
 
-.btns11:hover{
+/* .btns11:hover{
   animation: b 5s ease-in-out;
 }
 
 .btns12:hover{
   animation: c 5s ease-in-out;
-}
+} */
 
 .s1btn:hover{
   animation: b 5s ease-in-out;
@@ -826,3 +830,85 @@ body{
 */
 
 /**/
+
+.layerbtn1{
+  width: 0px;
+  height: 0;
+   background: #00a6cf;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #00a6cf;
+}
+
+.booknow:hover  .layerbtn1{
+  width: 157px;
+  height: 50px;
+}
+
+
+.layerbtn2{
+  width: 0px;
+  height: 0;
+   background: #004b66;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #004b66;
+}
+
+.btns11:hover  .layerbtn2{
+  width: 170px;
+  height: 60px;
+}
+
+.layerbtn3{
+  width: 0px;
+  height: 0;
+   background: #00a6cf;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #00a6cf;
+}
+
+.btns12:hover  .layerbtn3{
+  width: 170px;
+  height: 60px;
+}
+
+
+
