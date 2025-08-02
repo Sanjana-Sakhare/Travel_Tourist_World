@@ -466,11 +466,9 @@ body{
   height: 35px;
   width: 35px;
   background-color: #1ca8cb3a;
-}
-
-.iconsec121 i{
   color: #1CA8CB;
 }
+
 
 .sec12p2{
   color: #113d48;
@@ -519,43 +517,6 @@ body{
     background-color: white;
     color: black;
   }
-}
-
-
-
-/* .booknow:hover{
-  animation:  a 5s ease-in-out;
-} */
-
-/* .btns11:hover{
-  animation: b 5s ease-in-out;
-}
-
-.btns12:hover{
-  animation: c 5s ease-in-out;
-} */
-
-.s1btn:hover{
-  animation: b 5s ease-in-out;
-}
-
-.learnMBtn:hover{
-  animation: a 5s ease-in-out;
-}
-
-.divbtn1sec111:hover{
-  animation: a 5s ease-in-out;
-  color: white;
-}
-
-.divbtn2sec111:hover{
-  animation: a 5s ease-in-out;
-  color: white;
-}
-
-.divemailv:hover{
-  animation: a 5s ease-in-out;
-  color: white;
 }
 
 @keyframes circle11 {
@@ -910,5 +871,176 @@ body{
   height: 60px;
 }
 
+.layerbtn4{
+  width: 0px;
+  height: 0;
+  background-color: #004b66;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #004b66;
+}
 
+.s1btn:hover  .layerbtn4{
+  width: 150px;
+  height: 50px;
+}
 
+.layerbtn5{
+  width: 0px;
+  height: 0;
+  background-color: #00a6cf;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #00a6cf;
+}
+
+.learnMBtn:hover  .layerbtn5{
+  width: 180px;
+  height: 60px;
+}
+
+.layerbtn6{
+  width: 0px;
+  height: 0;
+  background-color: #00a6cf;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #00a6cf;
+}
+
+.divbtn1sec111:hover  .layerbtn6{
+  width: 220px;
+  height: 60px;
+}
+
+.layerbtn7{
+  width: 0px;
+  height: 0;
+  background-color: #00a6cf;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #00a6cf;
+}
+
+.divbtn2sec111:hover  .layerbtn7{
+  width: 180px;
+  height: 50px;
+}
+
+.layerbtn8{
+  width: 0px;
+  height: 0;
+  background-color: #00a6cf;
+  border-radius: 50px;
+  position: absolute;
+  left: 10;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+  border: 1px solid #00a6cf;
+}
+
+.divemailv:hover  .layerbtn8{
+  width: 200px;
+  height: 70px;
+}
+
+.instpost1{
+  position: relative;
+}
+
+.layerpost1 a{
+  color: white;
+}
+.layerpost1{
+  width: 100px;
+  height: 0;
+  background-color: #004b66b8;
+  position: absolute;
+  top: 0;
+  bottom: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  transition: width 0.9s;
+  transform: height 0.1s;
+  color: white;
+}
+@keyframes inst1 {
+  100%{
+    height: 100px;
+  }
+}
+.instpost1:hover  .layerpost1{
+  animation: inst1 1s ease-in-out;
+}
+
+.iconsec121:hover{
+  animation: iconch1 1s ease-in;
+}
+
+@keyframes iconch1 {
+  100%{
+    background-color: #004b66;
+    color: white;
+  }
+}
